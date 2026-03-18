@@ -1,0 +1,8 @@
+{
+  "defaultMode": "acceptEdits",
+  "additionalDirectories": ["/workspaces"],
+  "deny": [
+    "Read(./.env)",
+    "Read(./secrets/**)"
+  ]
+}
